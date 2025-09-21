@@ -5,6 +5,7 @@
 ## 📝 TL;DR  
 ### Built a pipeline for data-scarce NLP (95 samples) → Started with ML baselines →  advanced to transformer ensembles with pseudo-labeling → final DeBERTa-large  distilled from an ensemble, scoring **0.91493 (Top 13%)**.
 
+### Leaderboard progression of approaches
 ![model_accuracy_table](https://github.com/narayanpdas/Fake-or-Real-The-Impostor-Hunt-in-Texts-My-solution/blob/6808ae215999d6a9ed2736d4b6e7296b8004a46c/Assests/Model_accuracy_table.png)
 
 
@@ -79,6 +80,8 @@ From the prediction probabilitues i had from the champion model it was obvserved
 
 ![confidence_distribution](https://github.com/narayanpdas/Fake-or-Real-The-Impostor-Hunt-in-Texts-My-solution/blob/42fbbefb9623f244f3115ee20cecbdc29eac8b6a/Assests/deberta_confidence_plot.png)
 
+*The following chart highlights how close the model’s predictions were, with most lying in a narrow band near decision boundaries.*
+
 ### As you can see the model had close calls for many datapoints (about 130 with <10% confidence and about 70 with <1% gap) making it predict certain datapoints by a small margin. This is about 10% of the test_set of 1000+ samples.
 
 # Learnings 
@@ -105,3 +108,5 @@ From the prediction probabilitues i had from the champion model it was obvserved
 ### In particular, I'd like to acknowledge the following inspirations:
 - My perplexity and LLM judge idea is inspired from [This Notebook](https://www.kaggle.com/code/metawave/memory-optimized-transformers-for-impostor-hunt)
 - MY READX model was an direct inspiration from [This Notebook](https://www.kaggle.com/code/omidbaghchehsaraei/averaging-ensembling-for-the-impostor-hunt-in-text/notebook)
+
+### This competition showed me that even with scarce data, creative ensembling and persistence can push boundaries and I look forward to applying these lessons to future challenges and Projects.
