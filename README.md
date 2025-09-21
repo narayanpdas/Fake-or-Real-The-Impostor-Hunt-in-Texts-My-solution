@@ -4,11 +4,11 @@
 
 ### This notebook demonstrates how I engineered a solution for a highly data-scarce NLP problem, combining traditional ML baselines with transformer ensembles to reach a final leaderboard score of 0.91493, ranking in the top 13%.
 
->Important Note: I Have not Provided the Dataset here respecting the rules of the Contest, Hence if You Wish to Run the notebooks make sure to provide correct pathings to pandas **read_csv()** and the numpy **load()** functions. 
-Also i have made a utility notebook that contains all the functions required to extract the csv and numpy files required to run the notebooks.So, 
+## ⚠️ Important Note: 
+I Have not Provided the Dataset here respecting the rules of the Contest, Hence if You Wish to Run the notebooks make sure to provide correct pathings to pandas *read_csv()* function. Also i have made a utility function (notebooks/utility) required to extract the csv to run the notebooks correctly.So, 
 - Participate in the contest
-- Download the data or load the functions in your kaggle notebook and import the data
-- Run the utility functions to generate the files and add the path files, or load them as datasets in kaggle. 
+- Download the data or load the function in your kaggle notebook and import the data
+- Run the utility function to generate the files and add the path files, or load them as datasets in kaggle. 
 
 ## 🎯GOAL of the Contest: 
 ### The primary challenge was to distinguish between texts  from a limited training set of 95 samples and both texts in each sample - real (optimal for the recipient, as close as possible to the hidden original text) and fake (more or much more distant from the hidden original text) - have been significantly modified using LLMs.
