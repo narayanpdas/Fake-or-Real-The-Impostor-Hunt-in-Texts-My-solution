@@ -5,7 +5,7 @@
 ## 📝 TL;DR  
 ### Built a pipeline for data-scarce NLP (95 samples) → Started with ML baselines →  advanced to transformer ensembles with pseudo-labeling → final DeBERTa-large  distilled from an ensemble, scoring **0.91493 (Top 13%)**.
 
-![model_accuracy_table](https://github.com/narayanpdas/Fake-or-Real-The-Impostor-Hunt-in-Texts-My-solution/blob/42fbbefb9623f244f3115ee20cecbdc29eac8b6a/Assests/deberta_confidence_plot.png)
+![model_accuracy_table](https://github.com/narayanpdas/Fake-or-Real-The-Impostor-Hunt-in-Texts-My-solution/blob/6808ae215999d6a9ed2736d4b6e7296b8004a46c/Assests/Model_accuracy_table.png)
 
 
 ## Details:
